@@ -1,0 +1,32 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+.jumbo {
+    background-image: url("../img/jumbotron.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.banner {
+    background-color: rgba(0, 157, 255, 0.972);
+}
+footer {
+    height: 500px;
+    background-image: url("../img/dc-logo-bg.png"), url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right, center;
+    background-size: 25%, cover;
+}
+.h300 {
+    height: 300px;
+}
+
+.ImgBanner {
+    width: 100px;
+    height: 125px;
+}
