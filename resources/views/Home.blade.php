@@ -15,7 +15,7 @@ $comics=config("comics");
             <div class="col">
 
                 <x-card>
-
+                    <x-slot:id>{{ route("Comic",$comic["id"]) }}</x-slot:id>
                     <x-slot:thumb>{{$comic["thumb"]}}</x-slot:thumb>
                     <x-slot:title>{{ $comic["title"] }}</x-slot:title>
                     <x-slot:price>{{ $comic["price"] }}</x-slot:price>
